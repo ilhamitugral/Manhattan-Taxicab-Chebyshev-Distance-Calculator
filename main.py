@@ -42,11 +42,11 @@ def calcOklid(variable):
                 temp[2], variable[j][2],
                 temp[3], variable[j][3],
                 temp[4], variable[j][4],
-                math.sqrt(abs(temp[0] - variable[j][0]) ** 2),
-                math.sqrt(abs(temp[1] - variable[j][1]) ** 2),
-                math.sqrt(abs(temp[2] - variable[j][2]) ** 2),
-                math.sqrt(abs(temp[3] - variable[j][3]) ** 2),
-                math.sqrt(abs(temp[4] - variable[j][4]) ** 2),
+                int(math.sqrt(abs(temp[0] - variable[j][0]) ** 2)),
+                int(math.sqrt(abs(temp[1] - variable[j][1]) ** 2)),
+                int(math.sqrt(abs(temp[2] - variable[j][2]) ** 2)),
+                int(math.sqrt(abs(temp[3] - variable[j][3]) ** 2)),
+                int(math.sqrt(abs(temp[4] - variable[j][4]) ** 2)),
                 # ----
                 abs(temp[0] - variable[j][0]) ** 2 +
                 abs(temp[1] - variable[j][1]) ** 2 +
