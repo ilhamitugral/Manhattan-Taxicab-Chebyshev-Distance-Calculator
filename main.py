@@ -36,7 +36,7 @@ def calcOklid(variable):
         for j in range(len(variable[i])):
             temp = variable[i]
 
-            print('|{0}-{1}|²+|{2}-{3}|²+|{4}-{5}|²+|{6}-{7}|²+|{8}-{9}|²=√({10}+{11}+{12}+{13}+{14}) = {15}'.format(
+            print('|{0}-{1}|²+|{2}-{3}|²+|{4}-{5}|²+|{6}-{7}|²+|{8}-{9}|²=√({10}+{11}+{12}+{13}+{14}) = √{15}'.format(
                 temp[0], variable[j][0],
                 temp[1], variable[j][1],
                 temp[2], variable[j][2],
