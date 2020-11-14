@@ -1,6 +1,6 @@
 # Manhattan, Oklid ve Chebyshev Uzaklığı Hesaplama
 
-`variables` değeri içerisinde yer boyutlar yer almaktadır.
+`variables` değeri içerisinde matris yer almaktadır.
 
 ```
 variable = [
